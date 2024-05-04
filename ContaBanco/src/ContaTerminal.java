@@ -2,7 +2,6 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
 
@@ -13,6 +12,8 @@ public class ContaTerminal {
 
         System.out.println("Por favor, digite o número da Conta!");
         int numeroConta = scanner.nextInt();
+
+        scanner.nextLine();
 
         System.out.println("Por favor, digite o número da Agência!");
         String numeroAgencia = scanner.nextLine();
