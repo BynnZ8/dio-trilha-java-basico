@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
 
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.getDefault());
 
         //Exibir as mensagens para o nosso usuario
         //Obter pelo scanner os valores digitados no terminal
