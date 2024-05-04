@@ -13,13 +13,13 @@ public class ContaTerminal {
 
         System.out.println("Por favor, digite o número da Conta!");
         int numeroConta = scanner.nextInt();
-        
+
         System.out.println("Por favor, digite o número da Agência!");
-        String numeroAgencia = scanner.next();
+        String numeroAgencia = scanner.nextLine();
 
         System.out.println("Por favor, digite seu nome!");
-        String nomeCliente = scanner.next();
-        
+        String nomeCliente = scanner.nextLine();
+
         System.out.println("Por favor, digite seu saldo!");
         double saldoCliente = scanner.nextDouble();
 
